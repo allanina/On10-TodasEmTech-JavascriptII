@@ -7,3 +7,9 @@ const usuarios = [
     {user:238, name: 'Isis', idade:34 },
     {user:239, name: 'Pietra', idade:23 }
 ]
+
+const favoritas = listagemDeFrutas.slice(1,4);
+console.log(favoritas);
+
+const pessoas = usuarios.slice(0,2);
+console.log(pessoas);

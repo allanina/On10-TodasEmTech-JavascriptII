@@ -7,3 +7,14 @@ const usuarios = [
     {user:238, name: 'Isis', idade:34 },
     {user:239, name: 'Pietra', idade:23 }
 ]
+
+listagemDeFrutas.unshift('Carambola');
+console.log(listagemDeFrutas);
+
+usuarios.unshift(
+    {
+        user: 233, 
+        name: 'Allana', 
+        idade: 25
+    });
+console.log(usuarios);
