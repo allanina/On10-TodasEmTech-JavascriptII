@@ -8,3 +8,9 @@ const usuarios = [
     {user:238, name: 'Isis', idade:34 },
     {user:239, name: 'Pietra', idade:23 }
 ]
+
+const listagemDeFrutasPop = listagemDeFrutas.pop();
+console.log(listagemDeFrutas);
+
+const usuariosPop = usuarios.pop();
+console.log(usuarios);
